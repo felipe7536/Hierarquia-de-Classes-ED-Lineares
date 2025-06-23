@@ -14,10 +14,6 @@ class EstruturaLinearBase(ABC):
         return self._tamanho == 0
 
     @abstractmethod
-    def adicionar_no_inicio(self, valor):
-        pass
-
-    @abstractmethod
     def remover_do_inicio(self):
         pass
 
